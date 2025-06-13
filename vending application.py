@@ -9,7 +9,7 @@
 # Total cost
 # Skills practiced: loops, input(), conditionals, lists/dictionaries, sum(), print formatting
 def vending_machine():
-    # Initialize the vending machine items
+    # Initialize items
     items = {
         1: {"name": "Chips", "price": 1.50},
         2: {"name": "Chocolate Bar", "price": 1.25},
@@ -21,7 +21,6 @@ def vending_machine():
         8: {"name": "Candy", "price": 1.50}
     }
     
-    # Display welcome message
     print("Welcome to the Python Vending Machine!")
     print("Please select items by their number. Type 'done' when finished.\n")
     
@@ -55,7 +54,7 @@ def vending_machine():
         except ValueError:
             print("Please enter a valid number or 'done'.")
     
-    # Print receipt
+    #  receipt
     print("\nYour Receipt:")
     print("-------------")
     for item in cart:
