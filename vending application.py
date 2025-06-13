@@ -54,14 +54,14 @@ def vending_machine():
         except ValueError:
             print("Please enter a valid number or 'done'.")
     
-    #  receipt
+    # Print receipt
     print("\nYour Receipt:")
     print("-------------")
     for item in cart:
         print(f"{item['name']}: ${item['price']:.2f}")
     
     print(f"\nTotal: ${total:.2f}")
-    print("Thank you for using the Python Vending Machine!")
+    print("Thank you for using the Datanomic Vending Machine!")
 
-# Run the vending machine
+
 vending_machine()
