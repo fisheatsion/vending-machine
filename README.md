@@ -45,3 +45,4 @@ At the end, displays:
 The user’s score (e.g., 7/10)
 Correct answers for any questions they got wrong
 Skills practiced: loops, dictionaries, input, comparison, counters, print formatting
+#checking pull request"
